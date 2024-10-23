@@ -7,3 +7,9 @@ Enflasyon ve İşsizlik Tablosundaki bozuk verileri düzenleme
 •sonrasında dropna fonksiyonu ile NaN değerleri sildim ve bunun kalıcı olması için inplace=True komutunu kullandım.
 * yazdığım tüm kodlara ve dataya mevcut github dosyasından ulaşabilirsiniz.
 * bir sonraki güncellemede mevcut dataların arasındaki (varsa) bağlantıyı inceleyip bulgu kısmını ekleyeceğim.
+
+* Güncelleme
+* Elde ettiğim datayı korelasyon kontrolü için kullanılan corr fonksiyonu başta olmak üzere birçok matematiksel fonksiyon ile inceledim.
+* Korelasyon 0.194711 Çıktı bunun anlamı Çok ufak neredeyse kayda değer bile olamayacak şekilde Pozitif bir korelasyon olduğunu gösteriyor.
+* Seaborn Kütüphanesi ile grafik şeklinde projede görebilirsiniz.
+* Çıkan sonuç 'Phillips eğrisi' teorisine uygun şekilde çıkmadı.
